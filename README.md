@@ -1,6 +1,8 @@
-# Bike_sharing_project_using_NN
+## Bike_sharing_project_using_NN
 
-I’ve built my own neural network from scratch in my_answers.py file (later on, the content is imported to our notebook).
+### Project from Deep Learning Nanodegree - Udacity
+
+I’ve built my own neural network from scratch in my_answers.py file (later on, the file content is imported to our notebook).
 
 Firstly, I created Neural Network class with the init function acommodating the number of input, hidden and output nodes. Next, I initialized the weights, defined the activation function and learning rate. 
 
