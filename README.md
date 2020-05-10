@@ -11,4 +11,6 @@ The values for hidden, output nodes, number of iterations and the learning rate 
 Then, I defined the train function that includes the feed-forward pass, backpropagation, the weights update after each iteration and a run function. All these functions are defined after the train function. 
 In the notebook I started by cleaning and organizing the data, then splitting them into training, test and validation datasets. Next, NN class instance is being created with the input values and hyperparameters passed as arguments. 
 
+![predictions](./pred.png)
+
 With the use of training and validation losses we can see how the model performs during the iterations. I end up with validation loss at 0.183 vs the training one at 0.092 which means that our model is overfitting - generalizing the pattern of the first two-thirds of the month on the last third of the month.
